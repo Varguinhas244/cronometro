@@ -1,0 +1,72 @@
+@font-face {
+    font-family: dogica;
+    src: url(fonte/TTF/dogicapixel.ttf);
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(fonte/unboundgamer.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(fonte/GAMERIA.ttf);
+}
+
+body {
+    background-image: url(https://5287aa00874a313e299d-1850966fc307ff23e1e789aeafd2476b.ssl.cf5.rackcdn.com/PostImagem/42240/matthias-kinsella-9e4pcscldyy-unsplash.jpg);
+    text-align: center;
+}
+
+button {
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    margin: 15px 10px;
+    background-color: rgba(127, 255, 212, 0.349) ;
+    font-family: fonte3;
+    color: #008F8C;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-family: fonte2;
+    color: #008F8C;
+}
+
+span {
+    font-family: dogica;
+}
+
+#seconds {
+    font-size: 40px;
+    color: #023535;
+}
+
+#tens {
+    font-size: 40px;
+    color: #023535;
+}
+
+.doisponto {
+    font-size: 40px;
+}
+
+.cronometro {
+    margin-top: 15%;
+}
+
+footer {
+    font-size: 25px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-left: -20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+    font-family: fonte3;
+    color: #023535;
+}
